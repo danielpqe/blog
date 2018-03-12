@@ -1,0 +1,12 @@
+{
+  "autoload":{
+
+  },
+  "require":{
+    "phroute/phroute": "^2.1",
+    "twig/twig": "^2.4",
+    "illuminate/database": "^5.6",
+    "vlucas/phpdotenv": "^2.4",
+    "siriusphp/validation": "^2.2"
+  }
+}

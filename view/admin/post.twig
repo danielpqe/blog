@@ -1,0 +1,19 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+    <a class="btn btn-secondary" href="{{ 'admin/posts/create' | url }}">New</a>
+    <table class="table">
+        <tr>
+            <th>Title</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        {% for blogPost in blogPosts %}
+        <tr>
+            <td>{{ blogPost.title }}</td>
+            <td>Edit</td>
+            <td>Delete</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
